@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello ",
+  title: "Hello1 ",
   title2: "Alex",
   logo_name: "<AlexArmstrong/>",
   nickname: "Alex / Armstrong",
@@ -141,7 +141,6 @@ const skills = {
           style: {
             color: "#563d7c",
           },
-
         },
         {
           skillName: "Python",
@@ -183,7 +182,6 @@ const skills = {
         "⚡ Experience with Jenkins pipelines",
       ],
       softwareSkills: [
-
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -218,7 +216,6 @@ const skills = {
           style: {
             color: "#5b77ef",
           },
-
         },
         {
           skillName: "Netlify",
@@ -240,7 +237,8 @@ const degrees = {
   degrees: [
     {
       title: "Queens University Belfast",
-      subtitle: "BSc Business Information Technology Incl Professional Experience",
+      subtitle:
+        "BSc Business Information Technology Incl Professional Experience",
       logo_path: "qub.png",
       alt_name: "BIT",
       duration: "2018 - Present",
@@ -249,7 +247,8 @@ const degrees = {
         "⚡ I have also completed various online courses for Backend , Web , Front End Development, etc.",
         "⚡ I am currently in the process of developing projects based on what I have learnt during my course and individual learning. ",
       ],
-      website_link: "https://www.qub.ac.uk/courses/undergraduate/business-information-technology-incl-professional-experience-bsc-gn51/",
+      website_link:
+        "https://www.qub.ac.uk/courses/undergraduate/business-information-technology-incl-professional-experience-bsc-gn51/",
     },
   ],
 };
@@ -389,7 +388,6 @@ const certifications = {
       color_code: "#196db6",
     },
 
-
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -426,7 +424,6 @@ const experience = {
         },
       ],
     },
-
   ],
 };
 
@@ -476,7 +473,8 @@ const projects = {
       id: "0",
       name: "Crypto Tracker",
       url: "https://github.com",
-      description: "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
+      description:
+        "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
       status: "In development",
       languages: [
         {
@@ -501,7 +499,8 @@ const projects = {
       id: "0",
       name: "Movie Picker App",
       url: "https://github.com",
-      description: "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
+      description:
+        "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
       status: "In development",
       languages: [
         {
@@ -546,8 +545,7 @@ const emailInfo = {
   service_ID: "service_9xyztcd",
   template_ID: "contact_form",
   user_ID: "user_ZmzEAmycn3mYptVjhl2av",
-
-}
+};
 
 export {
   settings,

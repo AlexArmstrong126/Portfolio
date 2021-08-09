@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0617484d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dc409480.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dc409480.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.0fea35e3.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0fea35e3.js.map",
+    "main.js": "/Portfolio/static/js/main.6943d65b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6943d65b.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e3b9ca47.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3b9ca47.js.map",
     "static/css/2.31de8485.chunk.css": "/Portfolio/static/css/2.31de8485.chunk.css",
-    "static/js/2.3d56da8c.chunk.js": "/Portfolio/static/js/2.3d56da8c.chunk.js",
-    "static/js/2.3d56da8c.chunk.js.map": "/Portfolio/static/js/2.3d56da8c.chunk.js.map",
+    "static/js/2.9a65c56a.chunk.js": "/Portfolio/static/js/2.9a65c56a.chunk.js",
+    "static/js/2.9a65c56a.chunk.js.map": "/Portfolio/static/js/2.9a65c56a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.55fdf58ebad86284193063dbf591e2dc.js": "/Portfolio/precache-manifest.55fdf58ebad86284193063dbf591e2dc.js",
+    "precache-manifest.de8c6400783e3b0d6c423d15cc86317c.js": "/Portfolio/precache-manifest.de8c6400783e3b0d6c423d15cc86317c.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.31de8485.chunk.css.map": "/Portfolio/static/css/2.31de8485.chunk.css.map",
     "static/css/main.0617484d.chunk.css.map": "/Portfolio/static/css/main.0617484d.chunk.css.map",
-    "static/js/2.3d56da8c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3d56da8c.chunk.js.LICENSE.txt",
+    "static/js/2.9a65c56a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.9a65c56a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Oracle-O.png": "/Portfolio/static/media/Oracle-O.c2dab8e8.png",
     "static/media/buld.jpg": "/Portfolio/static/media/buld.a1051a22.jpg",
@@ -42,10 +42,10 @@
     "static/media/wrighter.jpg": "/Portfolio/static/media/wrighter.02fdae43.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fea35e3.js",
+    "static/js/runtime-main.e3b9ca47.js",
     "static/css/2.31de8485.chunk.css",
-    "static/js/2.3d56da8c.chunk.js",
+    "static/js/2.9a65c56a.chunk.js",
     "static/css/main.0617484d.chunk.css",
-    "static/js/main.dc409480.chunk.js"
+    "static/js/main.6943d65b.chunk.js"
   ]
 }

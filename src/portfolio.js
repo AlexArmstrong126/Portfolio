@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello1 ",
+  title: "Hello",
   title2: "Alex",
   logo_name: "<AlexArmstrong/>",
   nickname: "Alex / Armstrong",
@@ -500,7 +500,7 @@ const projects = {
       name: "Movie Picker App",
       url: "https://github.com",
       description:
-        "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
+        "This is a small project using react native that randomly picks a movie to watch, the user can add or delete movies that they have watched or want to watch",
       status: "In development",
       languages: [
         {

@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Fade } from "react-reveal";
-import { projectsHeader, projects } from "../../portfolio.js";
+import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
@@ -52,7 +52,9 @@ function Projects(props) {
       <br />
       <br />
       <br />
-
+      <a {...styles} className="general-btn" href={socialMediaLinks.github}>
+        More Projects (Github)
+      </a>
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

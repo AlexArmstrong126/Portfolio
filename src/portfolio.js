@@ -472,9 +472,9 @@ const projects = {
     {
       id: "0",
       name: "Crypto Tracker",
-      url: "https://github.com",
+      url: "https://github.com/AlexArmstrong126/cryptoproject",
       description:
-        "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
+        "This is a small project that displays crypto prices and other information, fetched using rapid api, regaring differenct cryptocurrencies including a history of the currency using Chart.js.",
       status: "In development",
       languages: [
         {
@@ -486,41 +486,49 @@ const projects = {
           iconifyClass: "logos-bitcoin",
         },
         {
-          name: "Bootstrap",
-          iconifyClass: "logos-bootstrap",
+          name: "ant-design",
+          iconifyClass: "logos:ant-design",
         },
         {
-          name: "Api",
-          iconifyClass: "carbon:api-1",
+          name: "Rapid-Api",
+          iconifyClass: "cib:octopus-deploy",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Chart.js",
+          iconifyClass: "file-icons:chartjs",
         },
       ],
     },
-    {
-      id: "0",
-      name: "Movie Picker App",
-      url: "https://github.com",
-      description:
-        "This is a small project using react native that randomly picks a movie to watch, the user can add or delete movies that they have watched or want to watch",
-      status: "In development",
-      languages: [
-        {
-          name: "React-Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Movies",
-          iconifyClass: "bx:bxs-camera-movie",
-        },
-        {
-          name: "IOS",
-          iconifyClass: "flat-ui:app-store",
-        },
-        {
-          name: "Android",
-          iconifyClass: "flat-color-icons:android-os",
-        },
-      ],
-    },
+    // {
+    //   id: "0",
+    //   name: "Movie Picker App",
+    //   url: "https://github.com",
+    //   description:
+    //     "This is a small project using react native that randomly picks a movie to watch, the user can add or delete movies that they have watched or want to watch",
+    //   status: "In development",
+    //   languages: [
+    //     {
+    //       name: "React-Native",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "Movies",
+    //       iconifyClass: "bx:bxs-camera-movie",
+    //     },
+    //     {
+    //       name: "IOS",
+    //       iconifyClass: "flat-ui:app-store",
+    //     },
+    //     {
+    //       name: "Android",
+    //       iconifyClass: "flat-color-icons:android-os",
+    //     },
+    //   ],
+    // },
     // {
     //   id: "0",
     //   name: "Gym Buddy App",

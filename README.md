@@ -10,9 +10,6 @@
 - Projects
 - Contact and Resume
 
-
-
-
 # Technologies used 🛠️
 
 - [React](https://reactjs.org/)
@@ -25,7 +22,3 @@
 # illustrations 🍥
 
 - [UnDraw](https://undraw.co/illustrations)
-
-# References
-
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio

@@ -36,6 +36,7 @@ function DegreeCard(props) {
     margin: "10px",
     boxShadow: `0px 1px 5px ${theme.accentColor}`,
     transition: "all 0.2s ease-in-out",
+    fontSize: "25px",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
       boxShadow: `0 5px 15px ${theme.accentColor}`,
@@ -49,16 +50,16 @@ function DegreeCard(props) {
     textDecoration: "none",
     color: "rgba(255, 255, 255, 1)",
     background: `${theme.accentColor}`,
-    padding: "15px 15px",
+    padding: "10px 10px",
     marginTop: "25px",
     borderRadius: "4px",
+    fontSize: "25px",
     borderWidth: "0px",
     marginBottom: "20px",
     width: "200px",
     height: "50px",
     fontWeight: "bold",
     fontFamily: "Google Sans Regular",
-    fontSize: "17px",
     transition: "all 0.2s ease-in-out",
     cursor: "pointer",
     ":hover": {
@@ -105,7 +106,11 @@ function DegreeCard(props) {
           <div className="body-content">
             {degree.descriptions.map((sentence, index) => {
               return (
-                <p key={index} className="content-list" style={{ color: theme.text }}>
+                <p
+                  key={index}
+                  className="content-list"
+                  style={{ color: theme.text }}
+                >
                   {sentence}
                 </p>
               );

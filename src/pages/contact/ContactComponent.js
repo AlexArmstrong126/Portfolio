@@ -78,10 +78,7 @@ function Contact(props) {
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                 alt=""
                 style={{
-                  border: `1px solid`,
-                  padding: `10px`,
-                  "box-shadow": `5px 10px`,
-                  height: `75vh`,
+                  borderRadius: "15px",
                 }}
               />
             </div>
@@ -170,7 +167,6 @@ function Contact(props) {
                               required
                               className="form-text"
                               placeholder="Enter Second Name"
-                              required
                               value={secondNameQuery}
                               onChange={(e) =>
                                 setSecondNameQuery(e.target.value)
@@ -187,7 +183,6 @@ function Contact(props) {
                           type="email"
                           required
                           placeholder="Enter email"
-                          required
                           value={emailAddressQuery}
                           onChange={(e) => setEmailAddressQuery(e.target.value)}
                         />
@@ -223,7 +218,7 @@ function Contact(props) {
                       >
                         <Form.Label className="form-labels">Query</Form.Label>
                         <Form.Control
-                          placeholder="Apartment, studio, or floor"
+                          placeholder="Place Query Here..."
                           as="textarea"
                         />
                       </Form.Group>

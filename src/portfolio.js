@@ -236,16 +236,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Queens University Belfast",
-      subtitle:
-        "BSc Business Information Technology Incl Professional Experience",
+      title:
+        "BSc Business Information Technology Incl Professional Experience - First Class Honors",
+      subtitle: "Queens University Belfast",
       logo_path: "qub.png",
       alt_name: "BIT",
-      duration: "2018 - Present",
+      duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Java, HTML CSS, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Front End Development, etc.",
-        "⚡ I am currently in the process of developing projects based on what I have learnt during my course and individual learning. ",
+        "⚡ During my time at university I studied a variety of different software areas including Data structures, DBMS and network security",
+        "⚡ I was also exposed to and excelled at many programming languages including PHP, SQL, Java, JavaScript, HTML and CSS",
+        "⚡ With ubniversity showcasing many different technologies I decided to expand my personal knowledge and complete various online courses for both Backend and Front End Development",
+        "⚡ As a result of my learning I am currently in the process of developing projects utilising the technologies I have explored",
       ],
       website_link:
         "https://www.qub.ac.uk/courses/undergraduate/business-information-technology-incl-professional-experience-bsc-gn51/",
@@ -405,12 +406,23 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Side-Projects",
   description:
-    "I've completed one internship and I am currenlty developing my own side projects.",
+    "After my second year at Queens I completed my placement with Oracle and joined the company as a junior software developer once my degree was completed.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "Junior Spftware Developer",
+          company: "Oracle Belfast",
+          company_url: "https://www.oracle.com/uk/index.html",
+          logo_path: "Oracle-O.png",
+          duration: "June 2022 - Present",
+          location: "Hybrid",
+          description:
+            "Currently I am part of the design studio team and tasked with fixing accessability bugs within the core commerce code base. I aid the current interns at oracle on how to maintain the front end of the internal tool we build during my placement as well as provide guidence on how to implement evolutions to the front end portion of the tool.",
+          color: "#0071C5",
+        },
         {
           title: "Junior Member of Technical Staff (Placement)",
           company: "Oracle Belfast",
@@ -439,7 +451,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "myBitmoji.png",
+    profile_image_path: "graduation_photo.jpg",
     description:
       "You can contact me at the places mentioned below and I'll get back to you as soon as possible if not fill out the form below 👇",
   },
@@ -475,7 +487,7 @@ const projects = {
       url: "https://github.com/AlexArmstrong126/cryptoproject",
       description:
         "This is a small project that displays crypto prices and other information, fetched using rapid api, regaring differenct cryptocurrencies including a history of the currency using Chart.js.",
-      status: "In development",
+      status: "Complete",
       languages: [
         {
           name: "ReactJS",

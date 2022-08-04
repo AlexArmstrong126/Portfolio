@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio",
-  "homepage": "http://AlexArmstrong126.github.io/Portfolio",
+  "homepage": "http://alexarmstrong.dev",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

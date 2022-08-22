@@ -553,7 +553,7 @@ const projects = {
       name: "MERN Stack Website",
       url: "https://github.com/AlexArmstrong126",
       description:
-        "This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS, styled components and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image and used the Nginx Rever proxy to serve the running Nodejs applications on the server",
+        "This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image.",
       status: "In Developement",
       languages: [
         {

@@ -38,15 +38,27 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text }}>
-            {repo.status}
-          </p>
-          <p className="repo-description" style={{ color: theme.text }}>
-            {repo.description}
-          </p>
-          <div className="repo-details">
-            <ProjectLanguages logos={repo.languages} />
+          <div className="repo-description-container">
+            {" "}
+            <p className="repo-description" style={{ color: theme.text }}>
+              {repo.status}
+            </p>
+            <p className="repo-description" style={{ color: theme.text }}>
+              {repo.description}
+            </p>
           </div>
+
+          {/* <div
+            className="repo-details"
+            style={{
+              backgroundColor: theme.name === "dark" ? "#ffffff" : "#1D1D1D",
+              justifyContent: "center",
+              padding: "10px",
+              borderRadius: "15px",
+            }}
+          >
+            <ProjectLanguages logos={repo.languages} />
+          </div> */}
         </div>
       </Fade>
     </div>

@@ -7,20 +7,19 @@ function ExperienceAccordion(props) {
   const theme = props.theme;
 
   return (
-    <div className="experience-accord">
-      <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
-        {props.sections.map((section) => {
-          return (
+    <div
+      className="experience-accord"
+      style={{
+        backgroundColor: theme.name === "light" ? "#ffffff" : "#1D1D1D",
+      }}
+    >
+      {console.log(theme)}
 
-            section["experiences"].map((experience) => {
-              return (
-                <ExperienceCard experience={experience} theme={theme} />
-              );
-            })
-
-          );
-        })}
-      </ThemeProvider>
+      {props.sections.map((section) => {
+        return section["experiences"].map((experience) => {
+          return <ExperienceCard experience={experience} theme={theme} />;
+        });
+      })}
     </div>
   );
 }

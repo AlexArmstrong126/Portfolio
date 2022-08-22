@@ -413,7 +413,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Junior Spftware Developer",
+          title: "Junior Software Developer",
           company: "Oracle Belfast",
           company_url: "https://www.oracle.com/uk/index.html",
           logo_path: "Oracle-O.png",
@@ -421,6 +421,17 @@ const experience = {
           location: "Hybrid",
           description:
             "Currently I am part of the design studio team and tasked with fixing accessability bugs within the core commerce code base. I aid the current interns at oracle on how to maintain the front end of the internal tool we build during my placement as well as provide guidence on how to implement evolutions to the front end portion of the tool.",
+          color: "#0071C5",
+        },
+        {
+          title: "Module Demonstrator",
+          company: "Queen's University Belfast",
+          company_url: "https://www.oracle.com/uk/index.html",
+          logo_path: "qub.png",
+          duration: "September 2021 - April 2022",
+          location: "Queen's University",
+          description:
+            "During my final year at uninversity I took on the role of a module demonstator. I was required to work closely with the Module lecturer in order to help support lab and exercise classes, this included web development in python utilising the laravel framework. On some occasions I was also tasked with carry out marking of students’ work for a given module.",
           color: "#0071C5",
         },
         {
@@ -513,6 +524,66 @@ const projects = {
           name: "Chart.js",
           iconifyClass: "file-icons:chartjs",
         },
+      ],
+    },
+    {
+      id: "1",
+      name: "Movie App",
+      url: "https://alexarmstrong126.github.io/movieapp/",
+      description:
+        "This project is a movie app inspired by Netflix and leverages a combination of react components and Sass in order to create the front end. Utiling axios and themoviedb's api movie data was fetched, stored and dyamically displayed within the project",
+      status: "Complete",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Sass",
+          iconifyClass: "logos-sass",
+        },
+        {
+          name: "API",
+          iconifyClass: "carbon:api-1",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "MERN Stack Website",
+      url: "https://github.com/AlexArmstrong126",
+      description:
+        "This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS, styled components and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image and used the Nginx Rever proxy to serve the running Nodejs applications on the server",
+      status: "In Developement",
+      languages: [
+        {
+          name: "MongoDb",
+          iconifyClass: "logos:mongodb-icon",
+        },
+        // {
+        //   name: "Express",
+        //   iconifyClass: "logos-express",
+        // },
+        // {
+        //   name: "React",
+        //   iconifyClass: "logos:react",
+        // },
+        // {
+        //   name: "NodeJs",
+        //   iconifyClass: "logos-nodejs",
+        // },
+        // {
+        //   name: "Tailwind CSS",
+        //   iconifyClass: "logos-tailwindcss",
+        // },
+        // {
+        //   name: "Nest.js",
+        //   iconifyClass: "logos-nestjs",
+        // },
+        // {
+        //   name: "Docker",
+        //   iconifyClass: "logos-docker",
+        // },
       ],
     },
     // {

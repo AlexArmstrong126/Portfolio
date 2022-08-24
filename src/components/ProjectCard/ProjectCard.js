@@ -25,36 +25,46 @@ export default function ProjectCard({ repo, theme }) {
   });
 
   return (
-    <div>
+    <div class="flex-container">
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          style={{ backgroundColor: theme.projectCard, overflow: "auto" }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
             </p>
           </div>
-          <div className="repo-description-container">
+          <div className="repo-description-container" style={{}}>
             {" "}
             <p className="repo-description" style={{ color: theme.text }}>
               {repo.status}
             </p>
-            <p className="repo-description" style={{ color: theme.text }}>
-              {repo.description}
-            </p>
+            {/* {repo.description} */}
+            {repo.descriptions.map((sentence, index) => {
+              return (
+                <p
+                  key={index}
+                  className="repo-description"
+                  style={{ color: theme.text }}
+                >
+                  {sentence}
+                </p>
+              );
+            })}
           </div>
-
-          {/* <div
+          {/* 
+          <div
             className="repo-details"
             style={{
               backgroundColor: theme.name === "dark" ? "#ffffff" : "#1D1D1D",
               justifyContent: "center",
               padding: "10px",
               borderRadius: "15px",
+              overflow: "auto",
             }}
           >
             <ProjectLanguages logos={repo.languages} />

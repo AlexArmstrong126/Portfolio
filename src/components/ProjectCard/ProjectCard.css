@@ -62,11 +62,11 @@
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  font-size: 20px;
 }
 
 .repo-details {
-  display: flex;
-  flex-direction: row;
+  display: grid;
 }
 
 .repo-creation-date {

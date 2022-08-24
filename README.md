@@ -1,6 +1,6 @@
 # My Portfolio
 
-- My First potfolio showcasing my skills
+- My First porfolio showcasing my skills
 
 # Sections
 

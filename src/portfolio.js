@@ -15,10 +15,9 @@ const greeting = {
   nickname: "Alex / Armstrong",
   full_name: "Alex Armstrong",
   subTitle:
-    // "Aspiring Full Stack Developer, React Enthusiast ⚛️. Passion for learning.🔥",
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+    "Recent graduate 🎓, Aspiring Full Stack Developer 💻, React Enthusiast ⚛️. Always learning 🔥.",
   resumeLink:
-    "https://drive.google.com/file/d/14l3JILMhSGz_WmA_RBqv8cASG8sVkPn6/view",
+    "https://drive.google.com/file/d/1VEzZO2nAvSUbpRtF_XdqDvgm3ZCeWoEV/view?usp=sharing",
 };
 
 const socialMediaLinks = {
@@ -33,8 +32,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
+        "⚡ Develop highly interactive and responsive Front end / User Interfaces designed to work on any screen size",
+        "⚡ Building responsive website front end using ReactJS and complementary technologies",
         "⚡ Creating application backend in Node, Express & Firebase",
         "⚡ Monitored the building, testing and deploying of continuous integration and delivery using Jenkins",
       ],
@@ -111,20 +110,6 @@ const skills = {
           },
         },
         {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
-        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
@@ -143,13 +128,6 @@ const skills = {
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
@@ -159,13 +137,6 @@ const skills = {
         {
           skillName: "Jest",
           fontAwesomeClassname: "simple-icons:jest",
-          style: {
-            color: "#FFA500",
-          },
-        },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "logos:kotlin",
           style: {
             color: "#FFA500",
           },
@@ -190,13 +161,6 @@ const skills = {
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
@@ -218,13 +182,6 @@ const skills = {
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
           skillName: "Jenkins",
           fontAwesomeClassname: "simple-icons:jenkins",
         },
@@ -243,10 +200,10 @@ const degrees = {
       alt_name: "BIT",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ During my time at university I studied a variety of different software areas including Data structures, DBMS and network security",
-        "⚡ I was also exposed to and excelled at many programming languages including PHP, SQL, Java, JavaScript, HTML and CSS",
-        "⚡ With ubniversity showcasing many different technologies I decided to expand my personal knowledge and complete various online courses for both Backend and Front End Development",
-        "⚡ As a result of my learning I am currently in the process of developing projects utilising the technologies I have explored",
+        "⚡ Studied a variety of different software areas including Data structures, DBMS and network security",
+        "⚡ Was exposed to and excelled in many programming fields including PHP, SQL, Java, JavaScript, HTML and CSS",
+        "⚡ Dedicated my free time to expand my personal knowledge and complete various online courses for both Backend and Front End Development",
+        "⚡ Currently in the process of developing projects utilising the technologies I have explored",
       ],
       website_link:
         "https://www.qub.ac.uk/courses/undergraduate/business-information-technology-incl-professional-experience-bsc-gn51/",
@@ -404,9 +361,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Side-Projects",
+  subtitle: "Work and Internship History",
   description:
-    "After my second year at Queens I completed my placement with Oracle and joined the company as a junior software developer once my degree was completed.",
+    "After my second year at Queens I completed my placement with Oracle and joined the company as a junior software developer once my degree was completed. I also was employed as a module demonstrator by my university during my final year",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -454,7 +411,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Due to my love for all things development I have a desire to be exposed to as many latest technologies as possible and I devlop projects to reflect this. Im most experienced in front end development with frameworks such as React, however I am always learning and have a desire to learn more serverside technologies to become a full stack developer. Below are some of my projects I have completed and ones I am currently working on. Note that not all of the projects mentioned below are on my GitHub yet.",
+    "My desire to learn about the newest technologies stems from my love of all things development, and the projects I create reflect this. Although I have the most experience in front end development using frameworks like React, I am constantly learning and want to become a full stack developer. The projects I have finished and am currently working on are listed below. Take note, not all of the projects listed below are yet available on my GitHub currently.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -464,7 +421,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "graduation_photo.jpg",
     description:
-      "You can contact me at the places mentioned below and I'll get back to you as soon as possible if not fill out the form below 👇",
+      "You can contact me at the places mentioned or fill out the form below 👇 and I will reach out as soon as possible",
   },
   contactForm: {
     title: "Email ",
@@ -494,11 +451,15 @@ const projects = {
     // },
     {
       id: "0",
-      name: "Crypto Tracker",
+      name: "Crypto Tracker ",
       url: "https://github.com/AlexArmstrong126/cryptoproject",
       description:
         "This is a small project that displays crypto prices and other information, fetched using rapid api, regaring differenct cryptocurrencies including a history of the currency using Chart.js.",
       status: "Complete",
+      descriptions: [
+        "⭐️ Small responsive project that displays crypto prices and other information including current crypto news.",
+        "⭐️ Displayed data is dynamically fetched in JSON format by making calls to Rapid API.",
+      ],
       languages: [
         {
           name: "ReactJS",
@@ -533,6 +494,12 @@ const projects = {
       description:
         "This project is a movie app inspired by Netflix and leverages a combination of react components and Sass in order to create the front end. Utiling axios and themoviedb's api movie data was fetched, stored and dyamically displayed within the project",
       status: "Complete",
+      descriptions: [
+        "⭐️ Responsive project inspired by Netflix's user interface focused on front end development.",
+        "⭐️ Leverages a combination of react components and Sass in order to create the front end.",
+        "⭐️ Utilises axios to create and make calls to themoviedb's api movie to retrieve data.",
+        "⭐️ Data is displayed through mapping out the objects and arrays within the stored JSON.",
+      ],
       languages: [
         {
           name: "React",
@@ -551,84 +518,86 @@ const projects = {
     {
       id: "2",
       name: "MERN Stack Website",
-      url: "https://github.com/AlexArmstrong126",
+      url: "https://github.com/AlexArmstrong126/mernstack",
       description:
-        "This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image.",
-      status: "In Developement",
+        "This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image. This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image. This project utilised the MERN stack in order to produce a fully responsive website created using a amalgamation of ReactJS, Tailwind CSS and Apollo GraphQL that was built on top of Nest.js framework. This project also utilised docker to dockerise the project with a MySQL docker image.",
+      status: "Currently In Development",
+      descriptions: [
+        "⭐️ Project was built using the popular MERN stack (MongoDB, React, Redux and Node)",
+        "⭐️ Project uses tailwind in order to create styled and responsive components",
+        "⭐️ Leveraged graphql in order to provide fast and flexible APIs in cooperation with state management library GraphQL, whilst all being built atop a Nest.js framework",
+        "⭐️ Project also utilised basic docker i to dockerise the project with a MySQL docker image.",
+      ],
       languages: [
         {
-          name: "MongoDb",
-          iconifyClass: "logos:mongodb-icon",
+          name: "React",
+          iconifyClass: "logos:react",
         },
-        // {
-        //   name: "Express",
-        //   iconifyClass: "logos-express",
-        // },
-        // {
-        //   name: "React",
-        //   iconifyClass: "logos:react",
-        // },
-        // {
-        //   name: "NodeJs",
-        //   iconifyClass: "logos-nodejs",
-        // },
-        // {
-        //   name: "Tailwind CSS",
-        //   iconifyClass: "logos-tailwindcss",
-        // },
-        // {
-        //   name: "Nest.js",
-        //   iconifyClass: "logos-nestjs",
-        // },
-        // {
-        //   name: "Docker",
-        //   iconifyClass: "logos-docker",
-        // },
+        {
+          name: "Sass",
+          iconifyClass: "logos-sass",
+        },
+        {
+          name: "API",
+          iconifyClass: "carbon:api-1",
+        },
       ],
     },
-    // {
-    //   id: "0",
-    //   name: "Movie Picker App",
-    //   url: "https://github.com",
-    //   description:
-    //     "This is a small project using react native that randomly picks a movie to watch, the user can add or delete movies that they have watched or want to watch",
-    //   status: "In development",
-    //   languages: [
-    //     {
-    //       name: "React-Native",
-    //       iconifyClass: "logos-react",
-    //     },
-    //     {
-    //       name: "Movies",
-    //       iconifyClass: "bx:bxs-camera-movie",
-    //     },
-    //     {
-    //       name: "IOS",
-    //       iconifyClass: "flat-ui:app-store",
-    //     },
-    //     {
-    //       name: "Android",
-    //       iconifyClass: "flat-color-icons:android-os",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "0",
-    //   name: "Gym Buddy App",
-    //   url: "https://github.com",
-    //   description: "This is a small project that displays crypto prices and other information, fetched using an api, regaring differenct cryptocurrencies",
-    //   status: "In development",
-    //   languages: [
-    //     {
-    //       name: "ReactJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //     {
-    //       name: "CryptoCurrency",
-    //       iconifyClass: "logos-react",
-    //     },
-    //   ],
-    // },
+    {
+      id: "3",
+      name: "Introduction to Threejs",
+      url: "https://github.com/AlexArmstrong126/ThreeJs_Intro",
+      description: "",
+      status: "Learning",
+      descriptions: [
+        "⭐️ Currently in the process of learning the basics of the Threejs to display 3D graphics",
+        "⭐️ Git repo contains my first experiemental project using the library",
+        "⭐️ Future plans include creating 3D images that can be utilised within JS projects in a high quality manner that is in line with performance and best practices standards",
+      ],
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Sass",
+          iconifyClass: "logos-sass",
+        },
+        {
+          name: "API",
+          iconifyClass: "carbon:api-1",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "My Portfolio ",
+      url: "https://github.com/AlexArmstrong126/Portfolio",
+      description: "",
+      status: "In constant Development",
+      descriptions: [
+        "⭐️ Current porfolio that showcases my skills as a front end developer",
+        "⭐️ Responsive single page application that leverages react-router dom to create a routing function to the different portfolio sections",
+        "⭐️ Uses a wide variety of technoliges including react, react-reveal and styled components",
+        "⭐️ Overarching css is leveraged in order to create a consistant themes throughout the application that can be easily toggled (dark and light mode)",
+        "⭐️ Includes illustrations and svg files to generate scalable images",
+        "⭐️ Contiains the function to allow emails to be sent directly to my email address",
+      ],
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Sass",
+          iconifyClass: "logos-sass",
+        },
+        {
+          name: "API",
+          iconifyClass: "carbon:api-1",
+        },
+      ],
+    },
   ],
 };
 

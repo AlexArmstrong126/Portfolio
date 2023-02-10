@@ -24,10 +24,17 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}
-                <span >
-                  <img className="wave-emoji" alt="👋" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" />
-                </span>
+              <h1 className="greeting-text">
+                {greeting.title}
+                <div className="wave-emoji">
+                  👋
+                  {/* <img
+                    className="wave-emoji"
+                    alt="👋"
+                    draggable="false"
+                    src="src/assests/images/hand.png"
+                  /> */}
+                </div>
               </h1>
               <p
                 className="greeting-text-p subTitle"

@@ -200,10 +200,10 @@ const degrees = {
       alt_name: "BIT",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ Studied a variety of different software areas including Data structures, DBMS and network security",
-        "⚡ Was exposed to and excelled in many programming fields including PHP, SQL, Java, JavaScript, HTML and CSS",
-        "⚡ Dedicated my free time to expand my personal knowledge and complete various online courses for both Backend and Front End Development",
-        "⚡ Currently in the process of developing projects utilising the technologies I have explored",
+        "⚡  I extensively studied various software domains, including data structures, database management systems (DBMS), and network security. This diverse curriculum provided me with a well-rounded understanding of fundamental and advanced concepts essential to software engineering",
+        "⚡ I gained exposure to and excelled in a variety of programming fields, showcasing proficiency in PHP, SQL, Java, JavaScript, HTML, and CSS. This breadth of experience equipped me with versatile skills across different languages and technologies.",
+        "⚡ I devoted my free time to expanding my personal knowledge and successfully completed numerous online courses in both backend and frontend development. This proactive commitment reflects my continuous pursuit of learning and staying abreast of advancements in the dynamic field of software development.",
+        "⚡ I am actively engaged in developing projects that leverage the technologies I've explored. This hands-on experience allows me to apply theoretical knowledge to practical scenarios, reinforcing my skills and fostering a deeper understanding of the development process.",
       ],
       website_link:
         "https://www.qub.ac.uk/courses/undergraduate/business-information-technology-incl-professional-experience-bsc-gn51/",
@@ -363,7 +363,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship History",
   description:
-    "After my second year at Queens I completed my placement with Oracle and joined the company as a junior software developer once my degree was completed. I also was employed as a module demonstrator by my university during my final year",
+    "Following my second year at Queens, I completed a rewarding placement with Oracle, subsequently joining the company as a junior software developer after graduating. Concurrently, during my final year, I served as a module demonstrator at the university. This dual experience reflects my commitment to both industry and academia.",
   header_image_path: "experience.svg",
   sections: [
     {

@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello",
+  title: "Hi",
   title2: "Alex",
   logo_name: "<AlexArmstrong/>",
   nickname: "Alex / Armstrong",
@@ -194,8 +194,8 @@ const degrees = {
   degrees: [
     {
       title:
-        "BSc Business Information Technology Incl Professional Experience - First Class Honors",
-      subtitle: "Queens University Belfast",
+        "BSc Business Information Technology Incl Professional Experience ",
+      subtitle: "First Class Honors - Queens University Belfast",
       logo_path: "qub.png",
       alt_name: "BIT",
       duration: "2018 - 2022",
@@ -375,9 +375,12 @@ const experience = {
           company_url: "https://www.oracle.com/uk/index.html",
           logo_path: "Oracle-O.png",
           duration: "June 2022 - Present",
-          location: "Hybrid",
-          description:
-            "Currently I am part of the design studio team and tasked with fixing accessability bugs within the core commerce code base. I aid the current interns at oracle on how to maintain the front end of the internal tool we build during my placement as well as provide guidence on how to implement evolutions to the front end portion of the tool.",
+          location: "Remote",
+          description: [
+            "As a vital member of the Oracle Storefront Team, my core responsibilities encompass not only addressing existing issues within the code base but also spearheading the development of innovative components. I currently play a pivotal role in a collaborative team dedicated to revolutionizing the aesthetic and functional aspects of our codebase. Leveraging my expertise in React and CSS, I am actively involved in an ambitious project aimed at transforming the overall look and feel of our software, ensuring a seamless and visually compelling user experience.",
+            "Beyond my primary responsibilities, I assume additional roles in diverse areas, notably as a crucial member of the Storefront Team. In this capacity, I've been instrumental in the enhancement of our existing component library, contributing significantly to the ongoing effort to elevate our technological infrastructure. This multifaceted involvement showcases my versatility and commitment to driving improvements across various facets of our projects.",
+            "I actively engage in mentoring sessions with current interns at Oracle, offering comprehensive guidance and support to enhance their understanding of tasks and foster professional development. My role involves providing valuable insights, facilitating skill development, and creating an environment conducive to their overall success in the dynamic realm of technology.",
+          ],
           color: "#0071C5",
         },
         {
@@ -387,8 +390,9 @@ const experience = {
           logo_path: "qub.png",
           duration: "September 2021 - April 2022",
           location: "Queen's University",
-          description:
-            "During my final year at uninversity I took on the role of a module demonstator. I was required to work closely with the Module lecturer in order to help support lab and exercise classes, this included web development in python utilising the laravel framework. On some occasions I was also tasked with carry out marking of students’ work for a given module.",
+          description: [
+            "During my final year of university, I served as a Module Demonstrator, where I played a pivotal role in facilitating the understanding of complex concepts. In this position, I not only conveyed theoretical knowledge but also provided practical demonstrations, fostering an enriched learning experience for my peers. This hands-on involvement allowed me to contribute to the academic environment, assisting fellow students in grasping the intricacies of the coursework and cultivating a collaborative and supportive learning community.",
+          ],
           color: "#0071C5",
         },
         {
@@ -398,8 +402,11 @@ const experience = {
           logo_path: "Oracle-O.png",
           duration: "August 2020 - August 2021",
           location: "Remote",
-          description:
-            "I soley designed, developed, tested and updated the front end of an internal tool built by me and other interns. This tool was used to automate the weekly tests ran on jenkins to confirm newly developed code was compatible and did not cause issues when merging with the existing code base used by customers including Denby Pottery, Duty Free and Gratis. I also was tasked with the creation of seed jobs within Jenkins which was the foundation for easily constructing consistent pipelines for newly created micro-services",
+          description: [
+            "I autonomously spearheaded the end-to-end process of designing, developing, testing, and consistently updating the front end of a proprietary internal tool. Collaborating with a team of fellow interns, I took the lead in crafting a user-friendly and efficient interface. This involved not only the initial design and development phases but also rigorous testing to ensure optimal functionality. The ongoing responsibility of updates and improvements underscored my commitment to delivering a high-quality and evolving solution tailored to the dynamic needs of the project.",
+            "The tool I developed played a critical role in automating the weekly tests conducted on Jenkins, ensuring the seamless integration of newly developed code with the existing customer-facing codebase. This automation was instrumental in verifying compatibility and identifying potential issues, offering a robust solution to streamline the merging process. Notably, our clientele included esteemed entities such as Denby Pottery, Duty Free, and Gratis. The tool's efficacy in upholding code integrity and minimizing disruptions underscored its significance in maintaining the reliability and performance of the production environment for our valued customers.",
+            "I was additionally entrusted with the creation of seed jobs within Jenkins, a pivotal responsibility that laid the foundation for effortlessly constructing consistent pipelines for newly developed micro-services. This task involved designing and implementing the initial configurations necessary to streamline the deployment and integration processes. By establishing these seed jobs, I contributed to the efficiency of our development workflow, ensuring a standardized and reliable approach to building and deploying micro-services. This initiative played a key role in enhancing our overall development lifecycle and fostering a more systematic and scalable infrastructure.",
+          ],
           color: "#0071C5",
         },
       ],

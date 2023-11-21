@@ -56,7 +56,9 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          {experience["description"].map((experience) => (
+            <p>{experience}</p>
+          ))}
         </p>
       </div>
     </div>
